@@ -1,4 +1,5 @@
-import  React from 'react';
+import React from 'react';
+// Boilerplate
 // import { useHistory } from 'react-router-dom';
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
 

@@ -1,3 +1,4 @@
+// Biolerplate
 // responsible for the modal window
 import React from 'react';
 
@@ -67,3 +68,4 @@ function PopupWithForm(props) {
 }
 
 export default PopupWithForm;
+
