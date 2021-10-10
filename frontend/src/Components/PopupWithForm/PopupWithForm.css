@@ -1,4 +1,5 @@
 /* Consider personalizing for Finance App*/
+
 .popup {
   visibility: hidden;
   position: fixed;
@@ -76,6 +77,18 @@
   border: 0;
 }
 
+.form__field_error {
+  font-size: 12px;
+  line-height: 15px;
+
+  content: 'invalid email';
+  margin: 0;
+  padding: 0;
+
+  color: #FF0000;
+  outline: none;
+}
+
 /* .form__field_error {
   font-size: 12px;
   line-height: 15px;
@@ -85,6 +98,7 @@
   color: #FF0000;
   outline: none;
 } */
+
 
 .form__input {
   width: 100%;
@@ -218,8 +232,9 @@
   }
 
   .form__close {
-    right: -10%;
-    top: -12%;
+
+    right: -7%;
+    top: -7%;
     height: 40px;
     width: 40px;
   }
@@ -247,15 +262,19 @@
     right: -5%;
   }
 }
+
 @media screen and (min-width: 1025px) {
   .form__close-tool {
     top: 32%;
     right: 32%;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .popup__container {
     top: -5%;
     right: 0;
   }
-} */
+ */
+
+
