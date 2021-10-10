@@ -1,0 +1,92 @@
+.content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.content__header {
+
+}
+
+.content__title {
+
+}
+
+.main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #F5F6F7;
+
+}
+.add-button {
+  width: 50px;
+  height: 50px;
+  margin: 35px 0 0;
+  padding: 0;
+  cursor: pointer;
+
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  /* background: url('../../images/add-icon.svg') center no-repeat; */
+}
+
+.add-button:hover {
+  opacity: .6;
+}
+
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.elements__title {
+  align-self: flex-start;
+  margin: 32px auto 0 5%;
+
+  font-family: 'Roboto Slab', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 113%;
+
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .elements__title {
+    margin-top: 40px;
+  }
+
+  .add-button {
+    max-width: 80px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    margin: 0 auto;
+  }
+
+  .elements__title {
+    margin-top: 80px;
+
+    font-size: 40px;
+    line-height: 115%;
+  }
+
+  .add-button {
+    max-width: 150px;
+    margin-left: auto;
+  }
+}
+
